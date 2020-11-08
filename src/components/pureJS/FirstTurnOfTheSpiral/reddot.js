@@ -1,7 +1,7 @@
-import React, { useEffect } from "react"
+import { useEffect } from "react"
 
 export default function ReactRedDotJS() {
-  useEffect(() => {
+  useEffect(() => { 
     // ванильный код js
     let reddot = document.createElement("div")
     reddot.style.display =         "flex"
@@ -16,12 +16,11 @@ export default function ReactRedDotJS() {
     reddot.style.backgroundColor = "black"
     reddot.style.userSelect =      "none"
     reddot.innerHTML =             "&centerdot;"
-    document.body.append(reddot)
+    return (document.body.append(reddot))
     // очистка
-    return () => document.body.remove(reddot)
+    // return () => document.body.remove(reddot)
   })
 }
-
 
 /* let reddot = document.createElement('div')*/
 
@@ -42,4 +41,3 @@ reddot.style.userSelect = "none"
 reddot.innerHTML = "&centerdot;";
 
 document.body.append(reddot) */
-

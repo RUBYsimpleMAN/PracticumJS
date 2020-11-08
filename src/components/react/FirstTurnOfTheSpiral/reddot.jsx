@@ -16,7 +16,7 @@ const divStyle = {
 
 export default function ReactRedDotJSX() {
   return(
-    <div style={divStyle}>&centerdot;</div>
+    <div style={divStyle}>&#183;</div>
   )
 }
 
