@@ -1,10 +1,14 @@
 import React from "react"
 import { Link } from "react-router-dom"
+import styled from "styled-components"
+
+// import { main } from "../themes/themes"
+
 
 const Header = () => {
   return (
     <nav>
-      <Link to="/"> Navbar </Link>
+      {/* <Link to="/"> Navbar </Link>
       <button
         className="navbar-toggler"
         type="button"
@@ -14,8 +18,8 @@ const Header = () => {
         aria-expanded="false"
         aria-label="Toggle navigation">
         <span>NavBUTTON</span>
-      </button>
-      <div id="navbarNav">
+      </button> */}
+      <HeaderSC>
         <span>
           <Link to="/">Home</Link>
         </span>
@@ -31,9 +35,25 @@ const Header = () => {
         <span>
           <Link to="/RedDotJSX">RedDotJSX</Link>
         </span>
-      </div>
+      </HeaderSC>
     </nav>
   )
 }
 
 export default Header
+
+
+const HeaderSC = styled.div`
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  top: 0px;
+  height: 60px;
+  width: 100%;
+  left: 0px;
+  line-height: 40px;
+  color: red;
+a{
+  color: red;
+}
+`
