@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/PracticumJS/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/PracticumJS/static/js/main.5d9a0f36.chunk.js",
+    "main.js.map": "/PracticumJS/static/js/main.5d9a0f36.chunk.js.map",
+    "runtime-main.js": "/PracticumJS/static/js/runtime-main.5dafec7f.js",
+    "runtime-main.js.map": "/PracticumJS/static/js/runtime-main.5dafec7f.js.map",
+    "static/js/2.33ebf971.chunk.js": "/PracticumJS/static/js/2.33ebf971.chunk.js",
+    "static/js/2.33ebf971.chunk.js.map": "/PracticumJS/static/js/2.33ebf971.chunk.js.map",
+    "index.html": "/PracticumJS/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/PracticumJS/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.33ebf971.chunk.js.LICENSE.txt": "/PracticumJS/static/js/2.33ebf971.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5dafec7f.js",
+    "static/js/2.33ebf971.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.5d9a0f36.chunk.js"
+  ]
+}
